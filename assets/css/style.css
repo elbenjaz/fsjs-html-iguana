@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+body {
+    margin: 0;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+header {
+    color: #fff;
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+header img {
+    width: 100%;
+}
+
+.resumen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 3rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.resumen div {
+    width: 35.5rem;  
+}
+.resumen p {
+    text-align: left;
+}
+.resumen img {
+    max-width: 100%;
+}
+
+.caracteristicas {
+    background-color: #1E1A13;
+    padding: 2rem;
+    opacity: 0.94;
+}
+.caracteristicas h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.caracteristicas .caracteristicas-flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    gap: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.galeria {
+    display: flex;
+    padding: 2rem;
+}
+.galeria img {
+    width: 90%;
+}
+.galeria img:hover {
+    transform: scale(1.2);
+    border-radius: 1rem;
+}
+
+footer {
+    background-color: #1E1A13;
+    opacity: 0.94;
+    padding: 2rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+footer a {
+    color: #f7f9f9;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+footer a:hover {
+    color: goldenrod;
+    font-size: 2rem;
+}
